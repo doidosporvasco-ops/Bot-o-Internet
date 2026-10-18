@@ -9,7 +9,7 @@ import android.os.*;
 import android.provider.Settings;
 import android.view.*;
 import android.widget.TextView;
-
+import android.widget.Toast;
 public class BubbleService extends Service {
     public static final String START="br.com.botaointernet.START", STOP="br.com.botaointernet.STOP";
     private static final String CHANNEL="botao_internet_servico";
